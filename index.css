@@ -1,0 +1,68 @@
+/* css bölümünde bütün componentleri ortaya alıp işlemlerine öyle devam etmeye çalıştım ve renklendirme vs gibi işlerde waybackmachine sitesindeki incele kısmından yararlandım */
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 80%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container2>div {
+    width: 30%;
+    margin: 1px;
+    background-color: #70CCC2;
+}
+
+.search-bar {
+    width: 100%;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.yazi>p {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons>button:nth-child(2) {
+    margin-left: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search>input {
+    text-align: center;
+    width: 40%;
+}
+
+div>input {
+    display: block;
+    margin: auto;
+}
+
+body>p {
+    text-align: center;
+}
